@@ -1,0 +1,16 @@
+__pycache__/
+*.py[cod]
+
+.venv/
+venv/
+env/
+
+recovered*/
+*_preview*/
+*_candidates/
+FOUND.000/
+*.log
+
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/

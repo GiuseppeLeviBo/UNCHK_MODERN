@@ -1,0 +1,86 @@
+[
+  {
+    "kind": "sqlite",
+    "extension": "sqlite",
+    "header_hex": "53514C69746520666F726D6174203300",
+    "contains_hex": "",
+    "confidence": "high"
+  },
+  {
+    "kind": "webp",
+    "extension": "webp",
+    "header_hex": "52494646",
+    "contains_hex": "57454250",
+    "confidence": "normal"
+  },
+  {
+    "kind": "flac",
+    "extension": "flac",
+    "header_hex": "664C6143",
+    "contains_hex": "",
+    "confidence": "high"
+  },
+  {
+    "kind": "ogg",
+    "extension": "ogg",
+    "header_hex": "4F676753",
+    "contains_hex": "",
+    "confidence": "normal"
+  },
+  {
+    "kind": "7z",
+    "extension": "7z",
+    "header_hex": "377ABCAF271C",
+    "contains_hex": "",
+    "confidence": "high"
+  },
+  {
+    "kind": "gzip",
+    "extension": "gz",
+    "header_hex": "1F8B08",
+    "contains_hex": "",
+    "confidence": "high"
+  },
+  {
+    "kind": "bzip2",
+    "extension": "bz2",
+    "header_hex": "425A68",
+    "contains_hex": "",
+    "confidence": "high"
+  },
+  {
+    "kind": "xz",
+    "extension": "xz",
+    "header_hex": "FD377A585A00",
+    "contains_hex": "",
+    "confidence": "high"
+  },
+  {
+    "kind": "wasm",
+    "extension": "wasm",
+    "header_hex": "0061736D01000000",
+    "contains_hex": "",
+    "confidence": "high"
+  },
+  {
+    "kind": "woff",
+    "extension": "woff",
+    "header_hex": "774F4646",
+    "contains_hex": "",
+    "confidence": "normal"
+  },
+  {
+    "kind": "woff2",
+    "extension": "woff2",
+    "header_hex": "774F4632",
+    "contains_hex": "",
+    "confidence": "normal"
+  },
+  {
+    "kind": "dng",
+    "extension": "dng",
+    "header_hex": "49492A00",
+    "contains_hex": "444E47",
+    "confidence": "low"
+  }
+]
