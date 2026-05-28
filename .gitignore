@@ -11,6 +11,9 @@ recovered*/
 FOUND.000/
 *.log
 
+build/
+dist/
+
 .pytest_cache/
 .mypy_cache/
 .ruff_cache/

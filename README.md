@@ -61,6 +61,12 @@ List built-in signatures:
 python unchk_modern.py list-types
 ```
 
+Launch the desktop GUI:
+
+```powershell
+python unchk_gui.py
+```
+
 ## Scan Modes
 
 The scan modes preserve the terminology used by the original UnCHK utility:
@@ -92,6 +98,52 @@ Some formats contain misleading internal markers. For example:
   PSD detector validates the surrounding header fields.
 - Very short signatures such as `MM` or `BM` are only useful in limited contexts
   and can create false positives inside large binary files.
+
+## Desktop GUI
+
+The repository includes a Tkinter desktop interface:
+
+```powershell
+python unchk_gui.py
+```
+
+The GUI exposes the common scan settings:
+
+- source directory;
+- output directory;
+- optional custom signatures JSON file;
+- scan mode;
+- `FILE????.CHK` filtering;
+- dry-run mode;
+- log writing;
+- maximum copy size guard;
+- maximum file limit for trial runs.
+
+The scan runs on a background thread, so the window remains responsive while
+large `FOUND.000` directories are being inspected.
+
+### Build a Windows EXE
+
+Install PyInstaller:
+
+```powershell
+python -m pip install pyinstaller
+```
+
+Build the GUI executable:
+
+```powershell
+python -m PyInstaller unchk_gui.spec
+```
+
+The resulting executable is written under:
+
+```text
+dist\UnCHK Modern\UnCHK Modern.exe
+```
+
+The command line tool can also be packaged separately if desired, but the GUI
+build is the most convenient distribution for non-technical users.
 
 ## Command Reference
 
